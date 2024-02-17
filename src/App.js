@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Darkmode from 'darkmode-js';
+import { Analytics } from '@vercel/analytics/react';
 
 new Darkmode().showWidget();
 const options = {
@@ -32,6 +33,7 @@ const App = () => {
       <Testimonials/>
       <Contact/>
       <Footer/>
+      <Analytics />
     </main>
     </>
   )
