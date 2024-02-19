@@ -6,7 +6,7 @@ export const Data = [
         id:1,
         image:Image1,
         title:"Tejas Goyal",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptates."
+        description: "I loved working with Nitin. He completed my project before the deadline and was very patient with all the iteration phases. Will definitely work again :)"
     },
     {
         id:2,
