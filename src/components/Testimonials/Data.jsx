@@ -1,6 +1,4 @@
-import { default as Image1} from "../../assets/testimonial1.png";
-import { default as Image2} from "../../assets/testimonial2.png";
-import { default as Image3} from "../../assets/testimonial3.png";
+import { default as Image1 } from "../../assets/testimonial1.png";
 // , default as Image2, default as Image3 
 
 export const Data = [
@@ -12,14 +10,14 @@ export const Data = [
     },
     {
         id:2,
-        image:Image2,
+        image:Image1,
         title:"Bhaskar Semwal",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptates."
+        description: "Nitin's dedication to his work is truly commendable. He not only understood our requirements but also provided innovative solutions. Highly recommended!"
     },
     {
         id:3,
-        image:Image3,
+        image:Image1,
         title:"Dhruv Naruka",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptates."
+        description: "I appreciate Nitin's expertise in web development. His attention to detail and commitment to delivering quality results make him a standout professional."
     },
 ];
