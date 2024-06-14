@@ -8,6 +8,7 @@ import Skills from './components/skills/Skills';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Projects from './components/projects/Projects';
 import Darkmode from 'darkmode-js';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -30,6 +31,7 @@ const App = () => {
       <About/>
       <Skills/>
       <Qualification/>
+      <Projects/>
       <Testimonials/>
       <Contact/>
       <Footer/>

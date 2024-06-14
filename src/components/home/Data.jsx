@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-
+import "./home.css";
 
 const Data = () => {
   return (
@@ -57,11 +57,13 @@ const Data = () => {
         </svg>
         </h1>
         <h3 className="home_subtitle darkmode-ignore ">
-        <Typewriter
+        <Typewriter class="typewriter"
         options={{
         strings: ['Frontend Web Developer', 'UI-UX Designer'],
         autoStart: true,
         loop: true,
+        // delay: 50,
+        cursor: '_',
         }}
   />
         </h3>

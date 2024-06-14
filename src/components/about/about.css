@@ -95,3 +95,16 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.button{
+    color: white;
+    font-weight: var(--font-medium);
+    border-radius: 0.75rem;
+}
+
+.button:hover{
+    color: white;
+    font-weight: var(--font-medium);
+    border-radius: 0.75rem;
+    background-color:rgb(0, 0, 0);
+}

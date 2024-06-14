@@ -41,10 +41,6 @@
     font-size: var(--small-font-size);
 }
 
-.darkmode--activated .contact_form-tag{
-    color: var(--white);
-    background-color: none;
-}
 .contact_form{
     width: 360px;
 }
@@ -103,15 +99,7 @@
 .darkmode--activated .contact_form-input{
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
-.contact_form-tag{
-    position: absolute;
-    top: -0.85rem;
-    left: 1.25rem;
-    font-size: var(--smaller-font-size);
-    padding: 0.25rem;
-    font-weight: 100;
-    z-index: 10;
-}
+
 
 
 .contact_form-area{

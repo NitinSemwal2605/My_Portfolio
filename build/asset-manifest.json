@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.197e9bca.css",
+    "main.js": "/static/js/main.721bbbbd.js",
+    "static/media/Profile.png": "/static/media/Profile.3d33a5f52b84d4ea68f7.png",
+    "static/media/Nitin.pdf": "/static/media/Nitin.84359e7de8945fcb814c.pdf",
+    "static/media/testimonial1.png": "/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/index.html",
+    "main.197e9bca.css.map": "/static/css/main.197e9bca.css.map",
+    "main.721bbbbd.js.map": "/static/js/main.721bbbbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.197e9bca.css",
+    "static/js/main.721bbbbd.js"
+  ]
+}
