@@ -28,7 +28,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="w-full flex flex-wrap justify-center -mx-4">
+          <div className="w-full flex flex-wrap justify-center -mx-6 mt-4">
             <div className="w-full px-4">
               <ul className="flex flex-wrap justify-center mb-12 space-x-1">
                 <li className="mb-1">
@@ -70,19 +70,19 @@ const Projects = () => {
               </ul>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-4">
+          <div className="flex flex-wrap -mx-6 mt-2">
             <PortfolioCard
-              ImageHref="https://shorturl.at/JPlDc"
+              ImageHref="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV3cyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
               category="frontend"
-              title="Microsoft Clone"
-              githubHref="https://github.com/"
-              previewHref="#"
+              title="News-Bhandar : A News Website "
+              githubHref="https://github.com/NitinSemwal2605/News-Bhandar"
+              previewHref="https://news-bhandar-psi.vercel.app/"
               showCard={showCard}
             />
             <PortfolioCard
               ImageHref="https://shorturl.at/rBSXS"
               category="frontend"
-              title="Signature Pad"
+              title="SignShare - A Signature Pad"
               githubHref="https://github.com/NitinSemwal2614/Signature-Pad"
               previewHref="https://nitinsemwal2614.github.io/Signature-Pad/"
               showCard={showCard}
@@ -90,32 +90,32 @@ const Projects = () => {
             <PortfolioCard
               ImageHref="https://shorturl.at/gpQOM"
               category="frontend"
-              title="Weather Forecast"
+              title="Mausamwiki -A Weather Forecast"
               githubHref="https://github.com/"
               previewHref="#"
               showCard={showCard}
             />
             <PortfolioCard
-              ImageHref="https://sprl.in/mrv2sW2"
-              category="frontend"
-              title="Password Generator"
-              githubHref="https://github.com/"
-              previewHref="#"
+              ImageHref="https://images.unsplash.com/photo-1642480485642-63b9018eadc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHBhc3N3b3JkfGVufDB8fDB8fHww"
+              category="fullstack"
+              title="PassBank - A Password Generator"
+              githubHref="https://github.com/NitinSemwal2605/PassBank"
+              previewHref="https://passbank.netlify.app/"
               showCard={showCard}
             />
             <PortfolioCard
-              ImageHref="https://sprl.in/hcmyqUz"
+              ImageHref="https://images.unsplash.com/photo-1572791035467-379a14a6dafd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGN1cnJlbmN5JTIwZXhjaGFuZ2V8ZW58MHx8MHx8fDA%3D"
               category="frontend"
-              title="Currency Converter"
+              title="  A Currency Converter"
               githubHref="https://github.com/NitinSemwal2614/Currency-Calculator"
               previewHref="https://currency-calculator-nine-olive.vercel.app/"
               showCard={showCard}
             />
             <PortfolioCard
-              ImageHref="https://sprl.in/rBlYQya"
+              ImageHref="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2l0aHVifGVufDB8fDB8fHww"
               category="frontend"
-              title="Speech Recognition"
-              githubHref="https://github.com/"
+              title="GitFinders - A Gateway to GitHub"
+              githubHref="https://github.com/NitinSemwal2605/GitFinders-A-Gateway-to-GitHub"
               previewHref="#"
               showCard={showCard}
             />
@@ -147,7 +147,7 @@ const PortfolioCard = ({
   return (
     <>
       <div
-        className={`w-full px-4 md:w-1/2 xl:w-1/3 ${
+        className={`w-full px-3 md:w-1/2 xl:w-1/3 ${
           showCard === "all" || showCard === category.toLowerCase()
             ? "block"
             : "hidden"
