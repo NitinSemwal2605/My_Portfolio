@@ -68,7 +68,7 @@ const Data = () => {
   />
         </h3>
         <p className="home_description">
-            I'm a Front-end website developer, specialized in creating clean and modern designs for web projects. My main focus is on user experience design, front-end development and UI/UX designs.
+        Hi, I'm Nitin Semwal, a 3rd-year Computer Science Engineering student passionate about crafting modern and functional websites. I focus on creating clean, user-centric designs that balance creativity and performance. With a dedication to continuous learning, I aim to transform ideas into seamless digital experiences.
         </p>
 
         <a href="#contact" className='button button--flex'>
