@@ -71,20 +71,13 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex flex-wrap -mx-6 mt-2">
-            <PortfolioCard
-              ImageHref="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV3cyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
-              category="frontend"
-              title="News-Bhandar : A News Website "
-              githubHref="https://github.com/NitinSemwal2605/News-Bhandar"
-              previewHref="https://news-bhandar-psi.vercel.app/"
-              showCard={showCard}
-            />
+            
             <PortfolioCard
               ImageHref="https://shorturl.at/rBSXS"
               category="frontend"
               title="SignShare - A Signature Pad"
-              githubHref="https://github.com/NitinSemwal2614/Signature-Pad"
-              previewHref="https://nitinsemwal2614.github.io/Signature-Pad/"
+              githubHref="https://github.com/NitinSemwal2605/Signature-Pad"
+              previewHref="https://signature-pad-delta.vercel.app/"
               showCard={showCard}
             />
             <PortfolioCard
@@ -119,14 +112,14 @@ const Projects = () => {
               previewHref="#"
               showCard={showCard}
             />
-            {/* <PortfolioCard
-              ImageHref="https://i.ibb.co/mCPjBsH/image-05.jpg"
+            { <PortfolioCard
+              ImageHref="https://metricscart.com/wp/wp-content/uploads/2023/09/fashion-ecommerce-in-the-US-scaled.jpg"
               category="fullstack"
-              title="Creative Agency"
+              title="Dressify- A Fashion Store"
               githubHref="#"
               previewHref="#"
               showCard={showCard}
-            /> */}
+            /> }
           </div>
         </div>
       </section>
