@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Data } from '../Testimonials/Data';
+import { Data } from './Data';
 import "./Testimonials.css";
 
 // Testimonials component

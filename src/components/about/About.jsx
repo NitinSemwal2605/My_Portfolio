@@ -16,14 +16,8 @@ const About = () => {
 
         <div className="about_data">
           <Info />
-          <p className="about_description">
-            I'm Nitin, a passionate and dedicated software developer with a
-            strong background in computer science. I delve into the intricacies
-            of web development while mastering Data Structures and Algorithms in
-            my Computer Science Engineering journey. With a portfolio that
-            speaks volumes about my commitment to innovation, clean code, and
-            collaborative growth, I invite you to explore the dynamic web
-            experiences I've crafted💻✨
+          <p className="about_description text-black">
+          Hi, I'm Nitin Semwal, a 3rd-year Computer Science Engineering student passionate about building responsive, user-friendly websites. I specialize in clean code, problem-solving, and creating digital experiences that blend performance, creativity, and accessibility.💻✨
           </p>
 
           <a download="" href={CV} className="button button--flex">
