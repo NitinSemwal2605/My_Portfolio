@@ -60,7 +60,7 @@ const Contact = () => {
     return (
         <>
             <section className="contact section" id="contact">
-                <h2 className="section_title text-center text-primary">Get In Touch</h2>
+                <h2 className="section_title text-center ">Get In Touch</h2>
                 <span className="section_subtitle text-center text-gray-600">Contact Me</span>
 
                 <div className="contact_container container grid gap-8">
@@ -68,13 +68,13 @@ const Contact = () => {
                     <div className="contact_info bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:shadow-2xl transition-all duration-300">
                         <h3 className="contact_title text-xl font-semibold text-gray-800 ">Talk to me</h3>
                         <div className="flex items-center space-x-3">
-                            <i className="bx bx-envelope text-4xl text-primary"></i>
+                            <i className="bx bx-envelope text-4xl text-black"></i>
                             <h3 className="text-lg font-semibold text-gray-800">Email</h3>
                         </div>
                         <span className="text-sm text-gray-600">55semwalnitin@gmail.com</span>
                         <a
                             href="mailto:55semwalnitin@gmail.com"
-                            className=" inline-flex items-center text-primary hover:text-primary-dark transition-all duration-300"
+                            className=" inline-flex items-center hover:text-primary-dark transition-all duration-300"
                         >
                             Write me
                             <i className="bx bx-right-arrow-alt ml-2"></i>
@@ -90,7 +90,7 @@ const Contact = () => {
                                 <input
                                     type="text"
                                     name="name"
-                                    className="contact_form-input w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
+                                    className="contact_form-input w-full p-3 border rounded-md focus:outline-none "
                                     placeholder="Insert Your Name"
                                     required
                                 />
@@ -100,7 +100,7 @@ const Contact = () => {
                                 <input
                                     type="email"
                                     name="email"
-                                    className="contact_form-input w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
+                                    className="contact_form-input w-full p-3 border rounded-md focus:outline-none "
                                     placeholder="Insert Your Email"
                                     required
                                 />
@@ -111,14 +111,14 @@ const Contact = () => {
                                     name="project"
                                     cols="30"
                                     rows="10"
-                                    className="contact_form-input w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
+                                    className="contact_form-input w-full p-3 border rounded-md focus:outline-none "
                                     placeholder="Write your project"
                                     required
                                 ></textarea>
                             </div>
 
                             <button
-                                className="button button--flex w-full p-3 bg-primary text-white rounded-md hover:bg-primary-dark transition-all duration-300 text-center"
+                                className="button button--flex w-full p-3 text-center  text-white rounded-md hover:bg-primary-dark transition-all duration-300 "
                                 type="submit"
                             >
                                 Send Message

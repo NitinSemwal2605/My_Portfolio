@@ -46,7 +46,7 @@
 }
 
 .contact_info a:hover {
-    color: #007bff; /* Blue color on hover */
+    color: #000000; /* Blue color on hover */
 }
 
 .contact_form_container {
@@ -82,7 +82,7 @@
 }
 
 .contact_form-input:focus {
-    border-color: #007bff;
+    border-color: #000000;
     outline: none;
 }
 
@@ -95,7 +95,7 @@ button {
     display: block;
     width: 100%;
     padding: 1rem;
-    background-color: #007bff;
+    background-color: #4a4a4a;
     color: white;
     border: none;
     border-radius: 0.5rem;
@@ -104,7 +104,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
 
 .button__icon {
