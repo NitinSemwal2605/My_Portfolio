@@ -12,7 +12,7 @@ export const Data = [
         id:2,
         image:Image1,
         title:"Bhaskar Semwal",
-        description: "Nitin's dedication to his work is truly commendable. He not only understood our requirements but also provided innovative solutions. Highly recommended!"
+        description: "Nitin's dedication to his work is commendable. He understood our needs and provided innovative solutions. Highly recommended!"
     },
     {
         id:3,

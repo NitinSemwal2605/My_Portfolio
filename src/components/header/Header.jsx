@@ -36,23 +36,12 @@ const Header = () => {
             </li>
 
             <li className='nav_item'>
-              <a href="#qualification" className='nav_link'>
-                <i className='uil uil-briefcase-alt nav_icon'></i> Qualification
-              </a>
-            </li>
-
-            <li className='nav_item'>
               <a href="#Projects" className='nav_link'>
                 <i className='uil uil-briefcase-alt nav_icon'></i> Projects
               </a>
             </li>
 
-            <li className='nav_item'>
-              <a href="#testimonials" className='nav_link'>
-                <i className='uil uil-scenery nav_icon'></i> Testimonials
-              </a>
-            </li>
-
+            
             <li className='nav_item'>
               <a href="#contact" className='nav_link'>
                 <i className='uil uil-message nav_icon'></i> Contact
