@@ -116,8 +116,8 @@ const Projects = () => {
               ImageHref="https://metricscart.com/wp/wp-content/uploads/2023/09/fashion-ecommerce-in-the-US-scaled.jpg"
               category="fullstack"
               title="Dressify- A Fashion Store"
-              githubHref="#"
-              previewHref="#"
+              githubHref="https://dressify-online-store.vercel.app/"
+              previewHref="https://dressify-online-store.vercel.app/"
               showCard={showCard}
             /> }
           </div>
