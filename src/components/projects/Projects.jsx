@@ -100,8 +100,8 @@ const Projects = () => {
               ImageHref="https://images.unsplash.com/photo-1572791035467-379a14a6dafd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGN1cnJlbmN5JTIwZXhjaGFuZ2V8ZW58MHx8MHx8fDA%3D"
               category="frontend"
               title="  A Currency Converter"
-              githubHref="https://github.com/NitinSemwal2614/Currency-Calculator"
-              previewHref="https://currency-calculator-nine-olive.vercel.app/"
+              githubHref="https://github.com/NitinSemwal2605/CurrencyConverter"
+              previewHref="https://currency-converter-psi-kohl.vercel.app/"
               showCard={showCard}
             />
             <PortfolioCard
