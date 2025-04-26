@@ -84,8 +84,8 @@ const Projects = () => {
               ImageHref="https://shorturl.at/gpQOM"
               category="frontend"
               title="Mausamwiki -A Weather Forecast"
-              githubHref="https://github.com/"
-              previewHref="#"
+              githubHref="https://github.com/NitinSemwal2605/WeatherMontoring"
+              previewHref="https://weather-montoring.vercel.app/"
               showCard={showCard}
             />
             <PortfolioCard
